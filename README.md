@@ -6,15 +6,15 @@
 
 ## Parents
 
-    ainda alterando o estilo do boletim para impressão
+    finalizado a estilização(estilo do pdf[m] pendente)
 
 ## Coord
 
-    de "Psyco" para "Coord"
+    none
 
 ## Secretary
 
-    none
+    Formulário de matrícula pronto para o Script
 
 ## Teacher
 
@@ -22,4 +22,4 @@
 
 ## Todos
 
-    Todas as paginas estão linkadas com o JS, e .md de requisitos
+    none
