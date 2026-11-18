@@ -7,9 +7,11 @@
     color: #fff;
 }
 
+/*header*/
+
 .top {
     background-color: #003c78;
-    height: 100px;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,7 +20,7 @@
 
 .backBtn {
     display: flex;
-    padding: 12px;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
@@ -27,6 +29,7 @@
     border: 2px solid rgba(255, 255, 255, 0.2);
     background-color: transparent;
     backdrop-filter: blur(10px);
+    border-radius: 40px;
 }
 
 .backBtn:hover {
@@ -34,16 +37,18 @@
 }
 
 .opcoes {
+    margin-left: 100px;
     display: flex;
     padding: 12px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     cursor: pointer;
 
     border-radius: 6px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background-color: transparent;
     backdrop-filter: blur(10px);
+    border-radius: 40px;
 }
 
 .opcoes option {
@@ -51,6 +56,32 @@
 }
 
 .logo {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 25px;
+}
+
+/*main*/
+
+h2 {
+    margin: 50px;
+    text-align: center;
+    color: #000;
+    text-shadow: none;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    padding: 5px;
+    color: #000;
+    text-shadow: none;
+    border: 2px solid #676767;
+}
+
+table td {
+    border: 2px solid #676767;
+    background-color: #003c78;
+    padding: 10px;
 }
