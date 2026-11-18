@@ -74,14 +74,25 @@ table {
 }
 
 th {
-    padding: 5px;
     color: #000;
     text-shadow: none;
-    border: 2px solid #676767;
+    padding: 11px;
+}
+
+td {
+    text-align: center;
 }
 
 table td {
     border: 2px solid #676767;
     background-color: #003c78;
-    padding: 10px;
+    
+}
+
+.verde {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
 }

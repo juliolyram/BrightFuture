@@ -6,11 +6,11 @@
 
 ## Parents
 
-    none
+    ainda alterando o estilo do boletim para impressão
 
-## Psyco
+## Coord
 
-    none
+    de "Psyco" para "Coord"
 
 ## Secretary
 
@@ -22,4 +22,4 @@
 
 ## Todos
 
-    Todas as paginas estão linkadas com o JS
+    Todas as paginas estão linkadas com o JS, e .md de requisitos
