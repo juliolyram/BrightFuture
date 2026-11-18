@@ -2,11 +2,11 @@
 
 ## Login
 
-    Tirei o efeito de vidro e coloquei azul
+    none
 
 ## Parents
 
-    Fiz as tabelas para os alunos
+    none
 
 ## Psyco
 
@@ -22,4 +22,4 @@
 
 ## Todos
 
-    Agora todos tem a nav-bar
+    Todas as paginas estão linkadas com o JS
