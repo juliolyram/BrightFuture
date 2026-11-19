@@ -4,17 +4,13 @@
 
     none
 
-## Parents
-
-    finalizado a estilização(estilo do pdf[m] pendente)
-
 ## Coord
 
     none
 
 ## Secretary
 
-    Formulário de matrícula pronto para o Script
+    none
 
 ## Teacher
 
@@ -22,4 +18,4 @@
 
 ## Todos
 
-    none
+    Aplicação das cores logos e fontes exigidas pelo cliente

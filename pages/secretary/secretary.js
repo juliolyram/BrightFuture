@@ -1,4 +1,3 @@
-
 const backBtns = document.querySelectorAll('.backBtn');
 const etapas = document.querySelectorAll(".etapa");
 
