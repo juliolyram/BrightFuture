@@ -3,8 +3,8 @@
 
 |ID|[ ]|Requisitos|Prior|Dep|Dp|
 |-|-|-|-|-|-|
-|01|[ ]|Login e inatividade|Alta|B|-|
-|02|[ ]|adms|Alta|B|01|
+|01|[ ]|Login|Alta|B|-|
+|02|[X]|adms|Alta|B|01|
 |03|[ ]|recentes|Média|B|01/02|
 |04|[ ]|nova matricula|Alta|M|01/02/12|
 |05|[ ]|validação de dados|Alta|B|04|
