@@ -8,10 +8,104 @@
     <link rel="stylesheet" href="./teacher.css">
 </head>
 <body>
-    <header class="top">
+    <header class="top one">
         <button class="backBtn">Sair</button>
+        <!--CABEÇALHO-->
+        <button class="btn chamar">Chamadas</button>
+        <button class="btn avaliar">Notas</button>
+
         <img class="logo" src="/assets/logoname-brightfuture.png" alt="bf logo">
     </header>
+
+    <main class="presenca">
+        <!--CHAMADAS-->
+        <nav class="top nav1">
+
+            <select id="serie" required>
+                <option value="">Série</option>
+                <option>1ª Série</option>
+                <option>2ª Série</option>
+                <option>3ª Série</option>
+            </select>
+        
+            <select id="turma" required>
+                <option value="">Turma</option>
+                <option>A</option>
+                <option>B</option>
+            </select>
+
+        </nav>
+
+            <form class="lancar chamadas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matrícula</th>
+                            <th>Nome</th>
+                            <th>Presente</th>
+                            <th>Faltou</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>000000</th>
+                            <th>Fulano Da Silva</th>
+                            <th><input type="checkbox"></th>
+                            <th><input type="checkbox"></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+
+    </main>
+    
+    <main class="avaliando">
+        <!--NOTAS-->
+        <nav class="top nav2">
+            
+            <select id="serie" required>
+                <option value="">Série</option>
+                <option>1ª Série</option>
+                <option>2ª Série</option>
+                <option>3ª Série</option>
+            </select>
+        
+            <select id="turma" required>
+                <option value="">Turma</option>
+                <option>A</option>
+                <option>B</option>
+            </select>
+
+        </nav>
+            <!--ESSA PARTE PRECISA VERIFICAR OS ALUNOS QUE ESTAM NA TURMA E EXIBIR NESSE FORMATO-->
+            <form class="lancar notas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matrícula</th>
+                            <th>Nome</th>
+                            <th>Unidade 1</th>
+                            <th>Unidade 2</th>
+                            <th>Unidade 3</th>
+                            <th>Unidade 4</th>
+                            <th>Recuperação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>000000</th>
+                            <th>Fulano Da Silva</th>
+                            <th><input placeholder="0,0" type="number"></th>
+                            <th><input placeholder="0,0" type="number"></th>
+                            <th><input placeholder="0,0" type="number"></th>
+                            <th><input placeholder="0,0" type="number"></th>
+                            <th><input placeholder="0,0" type="number"></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+    </main>
+    
     <script src="./teacher.js"></script>
 </body>
 </html>

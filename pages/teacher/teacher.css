@@ -38,6 +38,8 @@ body {
     font-weight: 700;
 }
 
+select
+
 .backBtn:hover {
     background-color: red;
 }

@@ -9,7 +9,7 @@
 |04|[X]|nova matricula|Alta|M|01/02/12|
 |05|[X]|validação de dados|Alta|B|04|
 |06|[X]|Etapas Salvas|Médio|B|04|
-|07|[ ]|Boas vindas|Alta|B|04|
+|07|[X]|Boas vindas|Alta|B|04|
 |08|[ ]|cadastro duplicado|Média|M|04/09|
 |09|[ ]|busca do coord|Alta|M|01/02|
 |10|[ ]|perfil do aluno|Alta|A|04/09/14/15|

@@ -10,11 +10,11 @@
 
 ## Secretary
 
-    adição de novas etapas
+    none
 
 ## Teacher
 
-    none
+    esqueleto do lançamento de notas e chamada feito
 
 ## Todos
 
