@@ -10,9 +10,51 @@
 <body>
     <header class="top">
         <button class="backBtn">Sair</button>
+
+        <!--PESQUISA POR NOME E MATRICULA-->
+        <input type="search" placeholder="Pesquisar">
+        
+        <select id="serie" required>
+            <option value="">Série</option>
+            <option>1ª Série</option>
+            <option>2ª Série</option>
+            <option>3ª Série</option>
+        </select>
+    
+        <select id="turma" required>
+            <option value="">Turma</option>
+            <option>A</option>
+            <option>B</option>
+        </select>
+
         <img class="logo" src="/assets/logoname-brightfuture.png" alt="bf logo">
     </header>
     <main>
+
+        <form class="lista">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matrícula</th>
+                        <th>Nome</th>
+                        <th>Média</th>
+                        <th>Frequência</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>000000</th>
+                        <th>Fulano Da Silva</th>
+                        <th>Bem</th>
+                        <th>Normal</th>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <form class="boletim">
+            
+        </form>
 
     </main>
     <script src="./coord.js"></script>

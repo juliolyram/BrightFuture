@@ -6,7 +6,7 @@
 
 ## Coord
 
-    none
+    lista dos alunos com destaque para média e frequência (boletim com infos do aluno ainda será esqueletizado{se pá deixo pra vc[se eu demorar faça]})
 
 ## Secretary
 
@@ -14,7 +14,7 @@
 
 ## Teacher
 
-    esqueleto do lançamento de notas e chamada feito
+    none
 
 ## Todos
 
