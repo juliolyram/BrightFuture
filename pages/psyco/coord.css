@@ -27,10 +27,12 @@ body {
 
 .backBtn {
     padding: 10px;
+    outline: none;
     cursor: pointer;
-    border-radius: 40px;
-    border: 2px solid red;
+
     background-color: #f97316;
+    border: 2px solid #eff6ff33;
+    border-radius: 40px;
 
     color: #eff6ff;
     font-weight: 700;

@@ -10,7 +10,7 @@
 
 ## Secretary
 
-    none
+    adição de novas etapas
 
 ## Teacher
 
@@ -18,4 +18,4 @@
 
 ## Todos
 
-    Aplicação das cores logos e fontes exigidas pelo cliente
+    none
