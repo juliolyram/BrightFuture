@@ -1,0 +1,18 @@
+[
+    {"matricula":"202601","nome":"Ana Beatriz Santos","serie":"1ª Série","turma":"A"},
+    {"matricula":"202602","nome":"Bruno Carvalho Lima","serie":"1ª Série","turma":"A"},
+    {"matricula":"202603","nome":"Carla Menezes Rocha","serie":"1ª Série","turma":"A"},
+    {"matricula":"202604","nome":"Daniel Oliveira Souza","serie":"1ª Série","turma":"B"},
+    {"matricula":"202605","nome":"Eduarda Pereira Alves","serie":"1ª Série","turma":"B"},
+    {"matricula":"202606","nome":"Felipe Andrade Costa","serie":"1ª Série","turma":"B"},
+    {"matricula":"202607","nome":"Gabriela Ribeiro Nunes","serie":"2ª Série","turma":"A"},
+    {"matricula":"202608","nome":"Heitor Barbosa Dias","serie":"2ª Série","turma":"A"},
+    {"matricula":"202609","nome":"Isabela Martins Freitas","serie":"2ª Série","turma":"A"},
+    {"matricula":"202610","nome":"João Pedro Cunha","serie":"2ª Série","turma":"B"},
+    {"matricula":"202611","nome":"Larissa Gomes Teixeira","serie":"2ª Série","turma":"B"},
+    {"matricula":"202612","nome":"Mateus Araújo Prado","serie":"2ª Série","turma":"B"},
+    {"matricula":"202613","nome":"Natália Ferreira Lopes","serie":"3ª Série","turma":"A"},
+    {"matricula":"202614","nome":"Otávio Mendes Vieira","serie":"3ª Série","turma":"A"},
+    {"matricula":"202615","nome":"Paula Cardoso Ramos","serie":"3ª Série","turma":"B"},
+    {"matricula":"202616","nome":"Rafael Monteiro Silva","serie":"3ª Série","turma":"B"}
+]

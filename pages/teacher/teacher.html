@@ -11,32 +11,34 @@
     <header class="top one">
         <button class="backBtn">Sair</button>
         <!--CABEÇALHO-->
-        <button class="btn chamar">Chamadas</button>
+        <button class="btn chamar ativa">Chamadas</button>
         <button class="btn avaliar">Notas</button>
 
         <img class="logo" src="/assets/logoname-brightfuture.png" alt="bf logo">
     </header>
 
-    <main class="presenca">
+    <main class="presenca ativa">
         <!--CHAMADAS-->
         <nav class="top nav1">
 
-            <select id="serie" required>
+            <select id="serieChamada" required>
                 <option value="">Série</option>
                 <option>1ª Série</option>
                 <option>2ª Série</option>
                 <option>3ª Série</option>
             </select>
         
-            <select id="turma" required>
+            <select id="turmaChamada" required>
                 <option value="">Turma</option>
                 <option>A</option>
                 <option>B</option>
             </select>
 
+            <input type="date" id="dataChamada" required>
+
         </nav>
 
-            <form class="lancar chamadas">
+            <form class="lancar chamadas" id="formChamada">
                 <table>
                     <thead>
                         <tr>
@@ -46,15 +48,12 @@
                             <th>Faltou</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <th>000000</th>
-                            <th>Fulano Da Silva</th>
-                            <th><input type="checkbox"></th>
-                            <th><input type="checkbox"></th>
-                        </tr>
+                    <tbody id="corpoChamada">
                     </tbody>
                 </table>
+
+                <p class="aviso" id="avisoChamada"></p>
+                <button type="submit" class="btn salvar" id="salvarChamada">Registrar chamada</button>
             </form>
 
     </main>
@@ -63,22 +62,22 @@
         <!--NOTAS-->
         <nav class="top nav2">
             
-            <select id="serie" required>
+            <select id="serieNotas" required>
                 <option value="">Série</option>
                 <option>1ª Série</option>
                 <option>2ª Série</option>
                 <option>3ª Série</option>
             </select>
         
-            <select id="turma" required>
+            <select id="turmaNotas" required>
                 <option value="">Turma</option>
                 <option>A</option>
                 <option>B</option>
             </select>
 
         </nav>
-            <!--ESSA PARTE PRECISA VERIFICAR OS ALUNOS QUE ESTAM NA TURMA E EXIBIR NESSE FORMATO-->
-            <form class="lancar notas">
+            <!--OS ALUNOS DA TURMA ESCOLHIDA SÃO EXIBIDOS NESSE FORMATO PELO teacher.js-->
+            <form class="lancar notas" id="formNotas" novalidate>
                 <table>
                     <thead>
                         <tr>
@@ -91,21 +90,16 @@
                             <th>Recuperação</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <th>000000</th>
-                            <th>Fulano Da Silva</th>
-                            <th><input placeholder="0,0" type="number"></th>
-                            <th><input placeholder="0,0" type="number"></th>
-                            <th><input placeholder="0,0" type="number"></th>
-                            <th><input placeholder="0,0" type="number"></th>
-                            <th><input placeholder="0,0" type="number"></th>
-                        </tr>
+                    <tbody id="corpoNotas">
                     </tbody>
                 </table>
+
+                <p class="aviso" id="avisoNotas"></p>
+                <button type="submit" class="btn salvar" id="salvarNotas">Salvar notas</button>
             </form>
     </main>
     
+    <script src="/data.js"></script>
     <script src="./teacher.js"></script>
 </body>
 </html>

@@ -12,7 +12,7 @@
         <button class="backBtn">Sair</button>
 
         <!--PESQUISA POR NOME E MATRICULA-->
-        <input type="search" placeholder="Pesquisar">
+        <input type="search" id="busca" placeholder="Pesquisar por nome ou matrícula">
         
         <select id="serie" required>
             <option value="">Série</option>
@@ -27,6 +27,9 @@
             <option>B</option>
         </select>
 
+        <!--ALTERNA ENTRE MENORES NOTAS E MENOR FREQUÊNCIA-->
+        <button type="button" class="btn ordenar" id="ordenar">Ordenar: Menores notas</button>
+
         <img class="logo" src="/assets/logoname-brightfuture.png" alt="bf logo">
     </header>
     <main>
@@ -37,17 +40,12 @@
                     <tr>
                         <th>Matrícula</th>
                         <th>Nome</th>
+                        <th>Turma</th>
                         <th>Média</th>
                         <th>Frequência</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <th>000000</th>
-                        <th>Fulano Da Silva</th>
-                        <th>Bem</th>
-                        <th>Normal</th>
-                    </tr>
+                <tbody id="corpoLista">
                 </tbody>
             </table>
         </form>
@@ -57,6 +55,7 @@
         </form>
 
     </main>
+    <script src="/data.js"></script>
     <script src="./coord.js"></script>
 </body>
 </html>
