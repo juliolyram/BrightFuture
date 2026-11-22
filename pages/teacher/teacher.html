@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor</title>
+    <link rel="icon" href="/assets/logo-brightfuture.png">
+    <link rel="stylesheet" href="./teacher.css">
+</head>
+<body>
+    <header class="top one">
+        <button class="backBtn">Sair</button>
+        <!--CABEÇALHO-->
+        <button class="btn chamar ativa">Chamadas</button>
+        <button class="btn avaliar">Notas</button>
+
+        <img class="logo" src="/assets/logoname-brightfuture.png" alt="bf logo">
+    </header>
+
+    <main class="presenca ativa">
+        <!--CHAMADAS-->
+        <nav class="top nav1">
+
+            <select id="serieChamada" required>
+                <option value="">Série</option>
+                <option>1ª Série</option>
+                <option>2ª Série</option>
+                <option>3ª Série</option>
+            </select>
+        
+            <select id="turmaChamada" required>
+                <option value="">Turma</option>
+                <option>A</option>
+                <option>B</option>
+            </select>
+
+            <input type="date" id="dataChamada" required>
+
+        </nav>
+
+            <form class="lancar chamadas" id="formChamada">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matrícula</th>
+                            <th>Nome</th>
+                            <th>Presente</th>
+                            <th>Faltou</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoChamada">
+                    </tbody>
+                </table>
+
+                <p class="aviso" id="avisoChamada"></p>
+                <button type="submit" class="btn salvar" id="salvarChamada">Registrar chamada</button>
+            </form>
+
+    </main>
+    
+    <main class="avaliando">
+        <!--NOTAS-->
+        <nav class="top nav2">
+            
+            <select id="serieNotas" required>
+                <option value="">Série</option>
+                <option>1ª Série</option>
+                <option>2ª Série</option>
+                <option>3ª Série</option>
+            </select>
+        
+            <select id="turmaNotas" required>
+                <option value="">Turma</option>
+                <option>A</option>
+                <option>B</option>
+            </select>
+
+        </nav>
+            <!--OS ALUNOS DA TURMA ESCOLHIDA SÃO EXIBIDOS NESSE FORMATO PELO teacher.js-->
+            <form class="lancar notas" id="formNotas" novalidate>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matrícula</th>
+                            <th>Nome</th>
+                            <th>Unidade 1</th>
+                            <th>Unidade 2</th>
+                            <th>Unidade 3</th>
+                            <th>Unidade 4</th>
+                            <th>Recuperação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoNotas">
+                    </tbody>
+                </table>
+
+                <p class="aviso" id="avisoNotas"></p>
+                <button type="submit" class="btn salvar" id="salvarNotas">Salvar notas</button>
+            </form>
+    </main>
+    
+    <script src="/data.js"></script>
+    <script src="./teacher.js"></script>
+</body>
+</html>

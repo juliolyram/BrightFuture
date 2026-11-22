@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedagogia</title>
+    <link rel="icon" href="/assets/logo-brightfuture.png">
+    <link rel="stylesheet" href="./coord.css">
+</head>
+<body>
+    <header class="top">
+        <button class="backBtn">Sair</button>
+
+        <!--PESQUISA POR NOME E MATRICULA-->
+        <input type="search" id="busca" placeholder="Pesquisar por nome ou matrícula">
+        
+        <select id="serie" required>
+            <option value="">Série</option>
+            <option>1ª Série</option>
+            <option>2ª Série</option>
+            <option>3ª Série</option>
+        </select>
+    
+        <select id="turma" required>
+            <option value="">Turma</option>
+            <option>A</option>
+            <option>B</option>
+        </select>
+
+        <!--ALTERNA ENTRE MENORES NOTAS E MENOR FREQUÊNCIA-->
+        <button type="button" class="btn ordenar" id="ordenar">Ordenar: Menores notas</button>
+
+        <img class="logo" src="/assets/logoname-brightfuture.png" alt="bf logo">
+    </header>
+    <main>
+
+        <form class="lista">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matrícula</th>
+                        <th>Nome</th>
+                        <th>Turma</th>
+                        <th>Média</th>
+                        <th>Frequência</th>
+                    </tr>
+                </thead>
+                <tbody id="corpoLista">
+                </tbody>
+            </table>
+        </form>
+
+        <form class="boletim">
+            
+        </form>
+
+    </main>
+    <script src="/data.js"></script>
+    <script src="./coord.js"></script>
+</body>
+</html>

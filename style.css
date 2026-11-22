@@ -1,0 +1,77 @@
+:root {
+    --fnt-ttl: "Baloo 2", sans-serif;
+    --fnt-txt: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fnt-ttl);
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    background: linear-gradient(
+        135deg,
+        #1d4ed8 0%,
+        #facc15 50%,
+        #f97316 100%
+    );
+}
+
+.container, .logotipo {
+    width: 450;
+    background-color: #eff6ffb3;
+    border: 2px solid #eff6ff33;
+    padding: 40px;
+    border-radius: 10px;
+    margin-inline: 100px;
+    box-shadow: #000;
+}
+
+.container h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    color: #1d4ed8;
+}
+
+.container button {
+    width: 100%;
+    height: 100%;
+    background-color: #f97316cc;
+    backdrop-filter: blur(10px);
+    outline: none;
+    border: 2px solid #eff6ff33;
+    border-radius: 40px;
+    padding: 20px 45px;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #eff6ff;
+    cursor: pointer;
+    text-shadow: none;
+    
+}
+
+.container div {
+    padding-top: 10px;
+}
+
+.container button:hover {
+    background-color:#facc15;
+    color: #1d4ed8;
+}
+
+img {
+    width: 520px;
+    height: 150px;
+}
