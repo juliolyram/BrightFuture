@@ -3,18 +3,15 @@ const etapas = document.querySelectorAll(".etapa");
 
 let etapaAtual = 0;
 
-// função para preencher os dados da confirmação
 function preencherConfirmacao() {
-    // dados do aluno
+
     const nomeDoAluno = document.getElementById('nome').value;
     const cpfDoAluno = document.getElementById('cpf').value;
     const dataDoAluno = document.getElementById('data-nascimento').value;
 
-    // dados do responsável
     const nomeResponsavel = document.getElementById('responsavel').value;
     const telefone = document.getElementById('telefone').value;
 
-    // colocando os dados na confirmação
     document.getElementById('outNome').textContent = nomeDoAluno;
     document.getElementById('outCpf').textContent = cpfDoAluno;
     document.getElementById('outData').textContent = dataDoAluno;
@@ -22,14 +19,12 @@ function preencherConfirmacao() {
     document.getElementById('outTelefoneResp').textContent = telefone;
 }
 
-// botão sair
 backBtns.forEach(backBtn => {
     backBtn.addEventListener("click", function () {
         window.location.href = "/index.html";
     });
 });
 
-// mostrar a etapa atual
 function mostrarEtapas() {
     etapas.forEach((etapa, index) => {
         etapa.classList.remove("ativa");
@@ -40,7 +35,6 @@ function mostrarEtapas() {
     });
 }
 
-// avançar etapa
 function proximaEtapa() {
     if (etapaAtual < etapas.length - 1) {
 
@@ -53,7 +47,6 @@ function proximaEtapa() {
     }
 }
 
-// voltar etapa
 function voltarEtapa() {
     if (etapaAtual > 0) {
         etapaAtual--;
@@ -62,5 +55,16 @@ function voltarEtapa() {
 }
 
 function finalizar() {
+    const nomeDoAluno = document.getElementById('nome').value;
+    document.getElementById('outNomeBoasVindas').textContent = nomeDoAluno;
 
+    etapaAtual++;
+    mostrarEtapas();
+}
+
+function novaMatricula() {
+    document.querySelector('.formulario').reset();
+
+    etapaAtual = 0;
+    mostrarEtapas();
 }
